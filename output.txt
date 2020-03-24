@@ -1,0 +1,33 @@
+|R| = 2
+Rule0: c -> 
+Rule1: bb -> ddd!
+
+Test #1:
+Initial state: abbcabbca
+Step #1:
+c ->  (position = 3)
+Current state: abbabbca
+Step #2:
+c ->  (position = 6)
+Current state: abbabba
+Step #3:
+bb -> ddd! (position = 1)
+Machine is stopped!
+Final state: adddabba
+
+Test #2:
+Initial state: c
+Step #1:
+c ->  (position = 0)
+Current state: 
+Step #2:
+No applicable rules!
+Machine is stopped!
+Final state: 
+
+Test #3:
+Initial state: bbb
+Step #1:
+bb -> ddd! (position = 0)
+Machine is stopped!
+Final state: dddb
